@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      heading: ["DM\\ Serif\\ Display", "serif"],
+    }
   },
   plugins: [],
 }

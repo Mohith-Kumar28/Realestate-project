@@ -2,7 +2,7 @@ const AfterHero = () => {
     return (
         <section className="text-gray-400 bg-gray-900 body-font py-24">
             <div className="flex justify-center">
-            <h1 className="title-font sm:text-4xl text-center text-3xl mb-10 font-medium text-white max-w-lg flex ">Before they sold out
+            <h1 className="title-font sm:text-4xl text-center text-3xl mb-10 font-medium font-heading text-white max-w-lg flex ">Before they sold out
         <br className="hidden lg:inline-block"/>readymade gluten
       </h1>
       </div>
