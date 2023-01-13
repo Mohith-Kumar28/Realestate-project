@@ -103,7 +103,7 @@ const AfterGrid = () => {
       {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/> */}
       <Image
       // loader={myLoader}
-      src="/assets/personchating.png"
+      src="/assets/personChating.png"
       alt="Picture of the author"
       width={400}
       height={400}
