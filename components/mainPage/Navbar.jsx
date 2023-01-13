@@ -1,10 +1,14 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+
+import Scroll from "react-scroll"
 
 const navigation = [
-    { name: 'Home', href: '#', current: true },
-    { name: 'Features', href: '#', current: false },
+    { name: 'Home', href: '/', current: true },
+    { name: 'Features', href: '#features', current: false },
     { name: 'Projects', href: '#', current: false },
     // { name: 'Calendar', href: '#', current: false },
   ]
@@ -14,10 +18,13 @@ const navigation = [
   }
 
 const Navbar = () => {
+  
+    let scroller = Scroll.scroller;
+  const router=useRouter()
     return (
         
 
-<Disclosure as="nav" className="bg-gray-800">
+<Disclosure as="nav" className="bg-gray-800 sticky top-0 w-full z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -48,19 +55,49 @@ const Navbar = () => {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:w-full sm:justify-center">
                   <div className="flex  space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
+                    {/* {navigation.map((item) => ( */}
+                      <button
+                        onClick={()=>{scroller.scrollTo('hero', {
+                          duration: 100,
+                          delay: 0,
+                          smooth: true,
+                          // offset: -30, // Scrolls to element + 50 pixels down the page
+                          
+                        })}}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          router.pathname==="/" ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
-                        aria-current={item.current ? 'page' : undefined}
                       >
-                        {item.name}
-                      </a>
-                    ))}
+                        Home
+                      </button>
+                      <button
+                        onClick={()=>{
+                          scroller.scrollTo('features', {
+                            duration: 100,
+                            delay: 0,
+                            smooth: true,
+                            offset: 50, // Scrolls to element + 50 pixels down the page
+                            
+                          })
+                        }}
+                        className={classNames(
+                          router.pathname.includes("#features") ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm font-medium'
+                        )}
+                      >
+                        Features
+                      </button>
+                      <button
+                        onClick={()=>{router.push("#")}}
+                        className={classNames(
+                          router.pathname.includes("/projects") ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm font-medium'
+                        )}
+                      >
+                        Projects
+                      </button>
+                    {/* ))} */}
                   </div>
                 </div>
               </div>

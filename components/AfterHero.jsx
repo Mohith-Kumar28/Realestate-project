@@ -1,9 +1,9 @@
 const AfterHero = () => {
     return (
-        <section className="text-gray-400 bg-gray-900 body-font py-24">
+        <section className="text-gray-400 bg-gray-900 body-font pb-24 pt-36 px-16">
             <div className="flex justify-center">
-            <h1 className="title-font sm:text-4xl text-center text-3xl mb-10 font-medium font-heading text-white max-w-lg flex ">Before they sold out
-        <br className="hidden lg:inline-block"/>readymade gluten
+            <h1 className="title-font sm:text-4xl text-center text-3xl mb-10 font-medium font-heading text-white max-w-lg flex ">Turn Visitors Into Customers
+        <br className="hidden lg:inline-block"/> With Less Effort
       </h1>
       </div>
   <div className="container mx-auto flex px-5  md:flex-row flex-col items-center">

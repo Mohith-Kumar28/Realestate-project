@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
         <div>
-            <section className="text-gray-400 py-24 pb-32 bg-gray-900 body-font">
-  <div className="container bg-yellow-200 rounded-3xl max-w-2xl px-14 py-12 mx-auto flex items-center md:flex-row flex-col">
+            <section className="text-gray-400 py-24 pb-32 px-6 bg-gray-900 body-font">
+  <div className="container bg-yellow-200 rounded-3xl max-w-2xl px-14 py-12 sm:mx-auto flex items-center md:flex-row flex-col">
     <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
       <h2 className="text-xs text-gray-600 tracking-widest font-medium title-font mb-1">READY TO JOIN?</h2>
       <h1 className="md:text-3xl text-2xl font-heading font-bold title-font text-gray-900">Contact Us</h1>
