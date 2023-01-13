@@ -57,13 +57,7 @@ const Navbar = () => {
                   <div className="flex  space-x-4">
                     {/* {navigation.map((item) => ( */}
                       <button
-                        onClick={()=>{scroller.scrollTo('hero', {
-                          duration: 100,
-                          delay: 0,
-                          smooth: true,
-                          // offset: -30, // Scrolls to element + 50 pixels down the page
-                          
-                        })}}
+                        onClick={()=>{router.push("/")}}
                         className={classNames(
                           router.pathname==="/" ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
@@ -89,7 +83,7 @@ const Navbar = () => {
                         Features
                       </button>
                       <button
-                        onClick={()=>{router.push("#")}}
+                        onClick={()=>{router.push("projects")}}
                         className={classNames(
                           router.pathname.includes("/projects") ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'

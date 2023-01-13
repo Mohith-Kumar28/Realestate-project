@@ -3,15 +3,15 @@ import Image from "next/image"
 
 const AfterGrid = () => {
     return (
-        <div className="bg-gray-900">
-        <section className="text-gray-400  body-font pt-32 pb-20 lg:pt-56 lg:pb-28 md:pb-24">
-  <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-  <div className="text-center lg:w-2/3 w-full">
-      <h1 className="title-font md:text-7xl text-5xl mb-4 font-medium text-white font-heading">1000+ companies</h1>
-      <p className="leading-relaxed mb-8">are already using Apartment Ocean!</p>
+        <div className="bg-gray-900 py-24">
+        <section className="text-gray-900 rounded-t-[100px] md:rounded-t-[200px] bg-gray-700 body-font pt-6 md:pt-32 pb-0 mb-52 lg:pt-44  ">
+  <div className="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
+  <div className="text-center lg:w-2/3 w-full relative z-10 drop-shadow-2xl">
+      <h1 className="title-font md:text-7xl text-3xl md:mb-4 font-medium text-yellow-400 font-heading">1000+ companies</h1>
+      <p className="font-bold md:text-xl text-md text-white">are already using Apartment Ocean!</p>
     
     </div>
-    <img className="w-full opacity-5 mb-10 -mt-48 md:-mt-72 lg:-mt-80 object-cover object-center rounded" alt="hero" src="/assets/companies.svg"/>
+    <img className="w-full mx-10 opacity-5  -mt-28 md:-mt-60 lg:-mt-80 object-cover object-center rounded" alt="hero" src="/assets/companies.svg"/>
     
   </div>
 </section>
@@ -88,8 +88,10 @@ const AfterGrid = () => {
 
 
 
-<section className="text-gray-100  pt-5  bg-gray-500 rounded-t-full body-font">
-  <div className="container max-w-4xl mx-auto flex px-10 pt-28 md:flex-row-reverse  w-full  flex-col items-center">
+<section className="text-gray-100 relative pt-5   body-font">
+  {/* <div className="bg-gray-500 absolute rounded-t-full z-0 w-full h-full top-0 left-0"></div> */}
+  <div className="bg-[url('/assets/messagePattern.svg')] h-full  rounded-t-full z-10 relative">
+  <div className="container relative z-20 max-w-4xl mx-auto flex px-10 pt-28 md:flex-row-reverse  w-full  flex-col items-center">
    
     <div className="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-4 flex flex-col md:items-start md:text-left items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-heading">Messaging Is The <br className=""/> New Trend In
@@ -109,6 +111,7 @@ const AfterGrid = () => {
       height={400}
     />
     </div>
+  </div>
   </div>
 </section>
     </div>)

@@ -6,7 +6,7 @@ const ReasonsToUseChatBot = () => {
   <div className="container px-5 py-24 mx-auto" id="features">
     <div className="text-center mb-16">
       <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">20 Reasons Why You Should Use.</p>
-      <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4 font-heading
+      <h1 className="sm:text-4xl text-2xl font-medium text-center title-font text-white mb-4 font-heading
       ">Chatbots</h1>
     </div>
     <div className="flex flex-wrap -m-4 lg:pl-20 sm:pl-32 ">

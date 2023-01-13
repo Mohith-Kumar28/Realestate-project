@@ -1,6 +1,6 @@
 import Chat from "./Chat"
 
-
+ 
 const Hero = () => {
     return (
         <>
