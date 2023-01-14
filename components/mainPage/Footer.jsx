@@ -97,7 +97,7 @@ const Footer = () => {
   </div>
   <div className="bg-gray-800 bg-opacity-75">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p className="text-gray-400 text-sm text-center sm:text-left">© 2020 company name —
+      <p className="text-gray-400 text-sm text-center sm:text-left">© 2023 company name —
         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-500 ml-1" target="_blank">@aaaaa</a>
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
