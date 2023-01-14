@@ -66,15 +66,16 @@ const Navbar = () => {
                         Home
                       </button>
                       <button
-                        onClick={()=>{
-                          scroller.scrollTo('features', {
-                            duration: 100,
-                            delay: 0,
-                            smooth: true,
-                            offset: 50, // Scrolls to element + 50 pixels down the page
+                        // onClick={()=>{
+                        //   scroller.scrollTo('features', {
+                        //     duration: 100,
+                        //     delay: 0,
+                        //     smooth: true,
+                        //     offset: 50, // Scrolls to element + 50 pixels down the page
                             
-                          })
-                        }}
+                        //   })
+                        // }}
+                        onClick={()=>{router.push("/#features")}}
                         className={classNames(
                           router.pathname.includes("#features") ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'

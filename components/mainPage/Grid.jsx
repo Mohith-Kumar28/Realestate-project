@@ -1,16 +1,26 @@
-
+import { motion } from "framer-motion"
 
 const Grid = () => {
     return (
-        <section className="text-gray-400 bg-gray-900 body-font">
-  <div className="container px-5 py-24 mx-auto">
+        <section className="text-gray-400 px-4 bg-gray-900 body-font">
+  <motion.div
+   initial={{  opacity: 0 }}
+   whileInView={{ opacity: 1.5 }}
+   viewport={{ once: true }}
+   transition={{ duration: 1 }}
+  className="container px-5 py-24 mx-auto">
     {/* <div className="flex flex-col text-center w-full mb-20">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Master Cleanse Reliac Heirloom</h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
     </div> */}
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 sm:w-1/2  p-4 cursor-pointer ">
-        <div className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
+        <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition:{ type: "spring", stiffness: 800, damping: 10 }
+        }}
+        className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360"/> */}
           <h2 className="absolute flex justify-center  w-full text-sm title-font font-medium text-yellow-400 mt-8 px-6 ">ALWAYS AVAILABLE</h2>
           <div className="justify-center self-center flex absolute inset-0 w-full h-full">
@@ -25,11 +35,15 @@ const Grid = () => {
             <h1 className="title-font text-lg font-medium text-white mb-3">ALWAYS AVAILABLE</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     
       <div className="lg:w-1/3 sm:w-1/2  p-4 cursor-pointer ">
-        <div className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
+        <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition:{ type: "spring", stiffness: 800, damping: 10 }
+        }} className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360"/> */}
           <h2 className="absolute flex justify-center  w-full text-sm title-font font-medium text-yellow-400 mt-8 px-6 ">EFFECTIVE LEAD GENERATION</h2>
           <div className="justify-center self-center flex absolute inset-0 w-full h-full">
@@ -45,11 +59,15 @@ const Grid = () => {
             <h1 className="title-font text-lg font-medium text-white mb-3">EFFECTIVE LEAD GENERATION</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     
       <div className="lg:w-1/3 sm:w-1/2  p-4 cursor-pointer">
-        <div className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
+        <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition:{ type: "spring", stiffness: 800, damping: 10 }
+        }} className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360"/> */}
           <h2 className="absolute flex justify-center  w-full text-sm title-font font-medium text-yellow-400 mt-8 px-6 ">SIMPLE SETUP</h2>
           <div className="justify-center self-center flex absolute inset-0 w-full h-full">
@@ -65,11 +83,15 @@ const Grid = () => {
             <h1 className="title-font text-lg font-medium text-white mb-3">SIMPLE SETUP</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     
       <div className="lg:w-1/3 sm:w-1/2  p-4 cursor-pointer">
-        <div className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
+        <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition:{ type: "spring", stiffness: 800, damping: 10 }
+        }} className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360"/> */}
           <h2 className="absolute flex justify-center  w-full text-sm title-font font-medium text-yellow-400 mt-8 px-6 ">SEAMLESS EXPERIENCE</h2>
           <div className="justify-center self-center flex absolute inset-0 w-full h-full">
@@ -85,11 +107,15 @@ const Grid = () => {
             <h1 className="title-font text-lg font-medium text-white mb-3">SEAMLESS EXPERIENCE</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     
       <div className="lg:w-1/3 sm:w-1/2  p-4 cursor-pointer">
-        <div className="flex relative h-full text-gray-800 bg-yellow-400 rounded-lg ">
+        <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition:{ type: "spring", stiffness: 800, damping: 10 }
+        }} className="flex relative h-full text-gray-800 bg-yellow-400 rounded-lg ">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360"/> */}
           <h2 className="absolute flex justify-center text-center w-full text-sm title-font font-bold  mt-8 px-10 ">AUTOMATED CUSOMER SERVICE AND INCREASE CONVERSION</h2>
           <div className="justify-center self-center flex absolute inset-0 w-full h-full">
@@ -106,11 +132,15 @@ const Grid = () => {
           </div>
 
      
-        </div>
+        </motion.div>
       </div>
     
       <div className="lg:w-1/3 sm:w-1/2  p-4 cursor-pointer">
-        <div className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
+        <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition:{ type: "spring", stiffness: 800, damping: 10 }
+        }} className="flex relative h-full bg-gray-800 rounded-lg hover:shadow-lg hover:shadow-white/10">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360"/> */}
           <h2 className="absolute flex justify-center  w-full text-sm title-font font-medium text-yellow-400 mt-8 px-6 ">CUSTAMIZABLE KNOWLEDGE BASE</h2>
           <div className="justify-center self-center flex absolute inset-0 w-full h-full">
@@ -126,12 +156,12 @@ const Grid = () => {
             <h1 className="title-font text-lg font-medium text-white mb-3">CUSTAMIZABLE KNOWLEDGE BASE</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     
    
      </div>
-  </div>
+  </motion.div>
 </section>
     )
 }

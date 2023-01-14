@@ -1,9 +1,13 @@
-
+import { motion } from "framer-motion"
 
 const ReasonsToUseChatBot = () => {
     return (
-       <section  className="text-gray-400 bg-gray-900 body-font pt-20">
-  <div className="container px-5 py-24 mx-auto" id="features">
+       <section  className="text-gray-400 bg-gray-900 body-font pt-20" id="features">
+  <motion.div
+   initial={{  y: 100,opacity:0 }}
+   whileInView={{ y:0,opacity:1 }}
+   viewport={{ once: true }}
+   transition={{ duration:1.3 }} className="container px-5 py-24 mx-auto" >
     <div className="text-center mb-16">
       <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">20 Reasons Why You Should Use.</p>
       <h1 className="sm:text-4xl text-2xl font-medium text-center title-font text-white mb-4 font-heading
@@ -191,7 +195,7 @@ Online Screening
       </div>
     </div>
    
-  </div>
+  </motion.div>
 </section>
     )
 }
