@@ -10,7 +10,7 @@ import Scroll from "react-scroll"
 const navigation = [
     { name: 'Home', href: '/', current: true },
     { name: 'Features', href: '#features', current: false },
-    { name: 'Projects', href: '#', current: false },
+    { name: 'Chatbots', href: '#', current: false },
     // { name: 'Calendar', href: '#', current: false },
   ]
   
@@ -99,7 +99,7 @@ const Navbar = () => {
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                       >
-                        Projects
+                        Chatbots
                       </button>
                     {/* ))} */}
                   </div>
