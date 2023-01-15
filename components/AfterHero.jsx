@@ -30,11 +30,11 @@ const AfterHero = () => {
    initial={{  y: 30,opacity:0 }}
    whileInView={{ y: 0 ,opacity:1}}
    viewport={{ once: true }}
-   transition={{ duration: 0.8 }} className="mb-8 leading-relaxed">Oakley is a revolutionary virtual customer representative powered by artificial intelligence (AI). It helps Property Management Companies (PMCs) and property owners increase customer conversion rates and reduce customer service costs.</motion.p>
-      <div className="flex justify-center">
+   transition={{ duration: 0.8 }} className="mb-8 leading-relaxed">Oakley is a revolutionary virtual customer representative powered by artificial intelligence (AI). It helps Property Management Companies (PMCs) and property owners increase customer conversion rates and reduce customer service costs. Oakley uses natural language processing and understanding to understand customer’s questions and provide accurate, personalized answers. This AI-powered customer service solution also helps PMCs and property owners save time by automating repetitive tasks like answering frequently asked questions. Oakley can be used for a variety of use cases, from providing 24/7 support to helping customers find the best apartment for their needs. With Oakley, PMCs and property owners can ensure that their customers get the best possible service, no matter the time or location.</motion.p>
+      {/* <div className="flex justify-center">
      
         <button className=" inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
-      </div>
+      </div> */}
     </div>
   </div>
 
