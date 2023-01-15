@@ -30,7 +30,7 @@ const AfterHero = () => {
    initial={{  y: 30,opacity:0 }}
    whileInView={{ y: 0 ,opacity:1}}
    viewport={{ once: true }}
-   transition={{ duration: 0.8 }} className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</motion.p>
+   transition={{ duration: 0.8 }} className="mb-8 leading-relaxed">Oakley is a revolutionary virtual customer representative powered by artificial intelligence (AI). It helps Property Management Companies (PMCs) and property owners increase customer conversion rates and reduce customer service costs.</motion.p>
       <div className="flex justify-center">
      
         <button className=" inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>

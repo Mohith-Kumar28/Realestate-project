@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const AfterGrid = () => {
     return (
         <div className="bg-gray-900 py-24">
-          <motion.div
+          {/* <motion.div
    initial={{  opacity: 0}}
    whileInView={{ opacity: 1 }}
    viewport={{ once: true }}
@@ -30,7 +30,7 @@ const AfterGrid = () => {
     
   </div>
 </section>
-  </motion.div>
+  </motion.div> */}
 
 
 
@@ -62,8 +62,8 @@ const AfterGrid = () => {
 
         </motion.div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-white mb-1 text-xl">Sign Up</h2>
-          <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <h2 className="font-medium title-font text-white mb-1 text-xl">Email Us</h2>
+          <p className="leading-relaxed">Just let us know your interest and get a hassle-free experience answering your customer’s queries.</p>
         </div>
       </div>
     </div>
@@ -84,8 +84,8 @@ const AfterGrid = () => {
 
         </motion.div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-white mb-1 text-xl">Choose Your Chat-Bot</h2>
-          <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <h2 className="font-medium title-font text-white mb-1 text-xl">Pick a Chatbot</h2>
+          <p className="leading-relaxed">Tailored chatbot specifically for your business plan, customise the replies, and deliver the special client experience you desire.</p>
         </div>
       </div>
     </div>
@@ -106,8 +106,9 @@ const AfterGrid = () => {
 
         </motion.div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-white mb-1 text-xl">Grow Business </h2>
-          <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          <h2 className="font-medium title-font text-white mb-1 text-xl">Expand Business  </h2>
+          <p className="leading-relaxed">Your website is now accessible 24/7! When your users need it, Oakley will always be there to interact with them and provide assistance.
+</p>
         </div>
       </div>
     </div>
@@ -119,18 +120,19 @@ const AfterGrid = () => {
 <section className="text-gray-100 relative pt-5   body-font">
   {/* <div className="bg-gray-500 absolute rounded-t-full z-0 w-full h-full top-0 left-0"></div> */}
   <div className="bg-[url('/assets/messagePattern.svg')] h-full  rounded-t-full z-10 relative">
-  <div className="container relative z-20 max-w-4xl mx-auto flex px-10 pb-14 pt-28 md:flex-row-reverse  w-full  flex-col items-center">
+  <div className="container relative z-20 max-w-4xl mx-auto flex px-10 py-4 pt-44 md:flex-row-reverse  w-full  flex-col items-center">
    
     <motion.div
    initial={{  opacity: 0 }}
    whileInView={{ opacity:1 }}
    viewport={{ once: true }}
    transition={{ duration:0.8 }} className="lg:flex-grow md:w-1/2  lg:pl-8 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-heading">Messaging Is The <br className=""/> New Trend In
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-heading">The new customer <br className=""/> behavioural pattern 
 
-        <br className=""/><span className="text-yellow-400">Customer Behavior </span>
+        <br className=""/><span className="text-yellow-400">is messaging. </span>
       </h1>
-      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <p className="mb-8 leading-relaxed">Messaging is quickly becoming the preferred way for customers to reach out and get their questions answered. Every day, millions of customers reach out through messaging to connect with businesses. Get a leg up on your competition by tapping into this new trend in customer behaviour with Oakley. With Oakley, you can quickly respond to customer inquiries and stay ahead of the competition.
+</p>
     
     </motion.div>
     <motion.div

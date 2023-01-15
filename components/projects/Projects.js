@@ -26,10 +26,10 @@ const Projects = () => {
    whileInView={{ x: 0 ,opacity:1}}
    viewport={{ once: true }}
    transition={{ duration: 0.8 }} className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">AO Long-Term 
-        <br className="hidden lg:inline-block"/>Deluxe
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Oakley  
+        <br className="hidden lg:inline-block"/>Diamond
       </h1>
-      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <p className="mb-8 leading-relaxed">For PMCs and property owners with smaller portfolios—typically 1 to 5 units under management—Oakley Gold was developed. The chatbot's purpose is to interact with users and respond to questions regarding properties.</p>
      
     </motion.div>
   </div>
@@ -43,8 +43,9 @@ const Projects = () => {
    whileInView={{ x: 60 ,opacity:1}}
    viewport={{ once: true }}
    transition={{ duration: 0.8 }} class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">AO Short-Term <br className="hidden lg:inline-block"/>Deluxe</h1>
-      <p class="mb-8 leading-relaxed">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Oakley<br className="hidden lg:inline-block"/>Platinum</h1>
+      <p class="mb-8 leading-relaxed">Oakley platinum is specifically designed to support your potential renters during their renting journey and to help them schedule an apartment visit. Available 24/7 on your website, you will not miss another customer from your website anymore.
+</p>
   </motion.div>
     <motion.div
    initial={{  y: 70 }}
@@ -73,9 +74,9 @@ const Projects = () => {
    whileInView={{ x: 0 ,opacity:1}}
    viewport={{ once: true }}
    transition={{ duration: 0.8 }} className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">AO Single Property
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Oakley <br className="hidden lg:inline-block"/> Gold
       </h1>
-      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <p className="mb-8 leading-relaxed">The Oakley Gold is the ideal addition to your inventory of holiday rentals. Every user on your website will be able to find the information they want and immediately make a reservation thanks to its user-friendly interface.</p>
      
     </motion.div>
   </div>

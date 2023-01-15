@@ -14,10 +14,10 @@ const Hero = () => {
     transition={{ duration: 0.8 }}
 
     className="lg:flex-grow lg:w-1/2 lg:pr-24  flex flex-col lg:items-start lg:text-left mb-16 lg:mb-0 items-center text-center">
-      <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-white font-heading"><span className="text-yellow-400">Fast Communication</span> Leads To More
-        <br className="hidden lg:inline-block"/> Customers
+      <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-white font-heading"><span className="text-yellow-400">Speedy communication</span> engages more 
+        <br className="hidden lg:inline-block"/> clients.
       </h1>
-      <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+      <p className="mb-8 leading-relaxed">Make sure your potential customers have access to the information they need at the right time</p>
       <div className="flex justify-center">
         <motion.button
            whileHover={{ scale: 1.2 }}
