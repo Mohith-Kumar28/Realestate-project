@@ -44,9 +44,9 @@ const Navbar = () => {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <Image
-                    className=" h-12 w-auto "
+                    className="block h-12 w-auto lg:hidden"
                     src="/assets/logo.svg"
-                    width={100}
+                    width={100}  
                     height={100}
                   />
                   {/* <img
