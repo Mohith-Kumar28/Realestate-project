@@ -62,6 +62,7 @@ const Footer = () => {
        <Image
                     className=" h-16 w-auto "
                     src="/assets/logo.svg"
+                    alt="hh"
                     width={100}
                     height={100}
                   />

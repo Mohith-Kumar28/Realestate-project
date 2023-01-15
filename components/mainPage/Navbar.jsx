@@ -3,6 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 import Scroll from "react-scroll"
 
@@ -42,7 +43,7 @@ const Navbar = () => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  {/* <img
                     className="block h-8 w-auto lg:hidden"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
@@ -51,6 +52,13 @@ const Navbar = () => {
                     className="hidden h-8 w-auto lg:block"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
+                  /> */}
+                   <Image
+                    className=" h-12 w-auto "
+                    src="/assets/logo.svg"
+                    width={100}
+                    height={100}
+                    alt="ok"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:w-full sm:justify-center">

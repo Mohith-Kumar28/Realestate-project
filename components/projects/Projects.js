@@ -17,7 +17,7 @@ const Projects = () => {
    viewport={{ once: true }}
    transition={{ duration: 0.8 }} className="border-4 border-gray-600 relative rounded-2xl lg:max-w-sm lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
       {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/> */}
-      <Image placeholder="blur" blurDataURL="/assets/chatScreenShots/chat1.jpg" className="rounded-xl z-10 relative" src="/assets/chatScreenShots/chat1.jpg" width="700" height="700"/>
+      <Image placeholder="blur" blurDataURL="/assets/chatScreenShots/chat1.jpg" className="rounded-xl z-10 relative"alt="ok" src="/assets/chatScreenShots/chat1.jpg" width="700" height="700"/>
       <div className="absolute w-full h-full bg-yellow-400/50 top-4 -right-3 rounded-xl"></div>
     </motion.div>
 
@@ -52,7 +52,7 @@ const Projects = () => {
    whileInView={{ y: 0 }}
    viewport={{ once: true }}
    transition={{ duration: 0.8 }} class="border-4 border-gray-600 relative rounded-2xl lg:max-w-sm lg:w-full md:w-1/2 w-5/6">
-    <Image placeholder="blur" blurDataURL="/assets/chatScreenShots/chat2.jpg" className="rounded-xl z-10 relative" src="/assets/chatScreenShots/chat2.jpg" width="700" height="700"/>
+    <Image placeholder="blur" blurDataURL="/assets/chatScreenShots/chat2.jpg" className="rounded-xl z-10 relative" alt="ok" src="/assets/chatScreenShots/chat2.jpg" width="700" height="700"/>
       <div className="absolute w-full h-full bg-yellow-400/50 top-4 right-3 rounded-xl"></div>
   </motion.div>
     </div>
@@ -66,7 +66,7 @@ const Projects = () => {
    whileInView={{ y: 0 }}
    viewport={{ once: true }}
    transition={{ duration: 0.8 }} className="border-4 border-gray-600 relative rounded-2xl lg:max-w-sm lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-    <Image placeholder="blur" blurDataURL="/assets/chatScreenShots/chat3.jpg" className="rounded-xl z-10 relative" src="/assets/chatScreenShots/chat3.jpg" width="700" height="700"/>
+    <Image placeholder="blur" blurDataURL="/assets/chatScreenShots/chat3.jpg" className="rounded-xl z-10 relative" alt="ok" src="/assets/chatScreenShots/chat3.jpg" width="700" height="700"/>
       <div className="absolute w-full h-full bg-yellow-400/50 top-4 -right-3 rounded-xl"></div>
     </motion.div>
     <motion.div
