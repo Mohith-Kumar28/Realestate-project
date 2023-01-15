@@ -37,7 +37,7 @@ const Hero = () => {
      whileInView={{ y: 0.2 }}
      viewport={{ once: true }}
      transition={{ duration: 0.8 }}
-    className="lg:max-w-lg  lg:w-1/2 w-5/6 relative">
+    className="lg:max-w-lg  lg:w-2/5 w-5/6 relative">
       {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/> */}
       <div className="bg-yellow-500/30 w-full h-full absolute rounded-lg  top-3 -left-3 "></div>
       <div className="bg-yellow-500/20 w-full h-full absolute rounded-lg  top-6 -left-6 "></div>
