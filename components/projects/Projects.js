@@ -29,7 +29,7 @@ const Projects = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Oakley  
         <br className="hidden lg:inline-block"/>Diamond
       </h1>
-      <p className="mb-8 leading-relaxed">For PMCs and property owners with smaller portfolios—typically 1 to 5 units under management—Oakley Gold was developed. The chatbots purpose is to interact with users and respond to questions regarding properties.</p>
+      <p className="mb-8 leading-relaxed">For PMCs and property owners with smaller portfolios—typically 1 to 5 units under management—Oakley Gold was developed. The chatbot&apos;s purpose is to interact with users and respond to questions regarding properties.</p>
      
     </motion.div>
   </div>
