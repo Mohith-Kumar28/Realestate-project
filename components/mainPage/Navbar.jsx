@@ -53,13 +53,14 @@ const Navbar = () => {
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   /> */}
+                  <Link href="/">
                    <Image
                     className=" h-12 w-auto "
                     src="/assets/logo.svg"
                     width={100}
                     height={100}
                     alt="ok"
-                  />
+                  /></Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:w-full sm:justify-center">
                   <div className="flex  space-x-4">
